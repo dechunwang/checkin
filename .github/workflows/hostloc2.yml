@@ -37,4 +37,4 @@ jobs:
         hostloc_password: ${{ secrets.hostloc_password }}
         hostloc_onebyone: false
       run: |
-        python hostloc/hostloc.py $hostloc_username:$hostloc_password
+        python hostloc/hostloc2.py $hostloc_username:$hostloc_password
